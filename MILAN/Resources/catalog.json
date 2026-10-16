@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "AeroMILA Halcón P2",
+    "description": "Dron profesional para inspeccionar techos y fachadas con video estable y maniobras precisas.",
+    "price": "19.5",
+    "brandID": 2,
+    "typeID": 2,
+    "imageName": "product-1"
+  },
+  {
+    "id": 2,
+    "name": "AeroMILA Brisa Mini",
+    "description": "Dron ligero para aprender a volar y grabar paseos recreativos en espacios abiertos.",
+    "price": "8.50",
+    "brandID": 2,
+    "typeID": 1,
+    "imageName": "product-2"
+  },
+  {
+    "id": 3,
+    "name": "AgroVuelo Prisma 4K",
+    "description": "Captura video aéreo detallado para el seguimiento profesional de obras y la creación de contenido comercial.",
+    "price": "12",
+    "brandID": 5,
+    "typeID": 2,
+    "imageName": "product-3"
+  },
+  {
+    "id": 4,
+    "name": "AeroMILA Centinela S1",
+    "description": "Apoya la vigilancia de perímetros con recorridos programables y transmisión de video en tiempo real.",
+    "price": "12",
+    "brandID": 2,
+    "typeID": 2,
+    "imageName": "product-4"
+  },
+  {
+    "id": 5,
+    "name": "AgroVuelo Órbita Foto",
+    "description": "Toma fotografías aéreas panorámicas para turismo, bienes raíces y promoción de espacios.",
+    "price": "8.5",
+    "brandID": 5,
+    "typeID": 3,
+    "imageName": "product-5"
+  },
+  {
+    "id": 6,
+    "name": "AeroMILA Campo V3",
+    "description": "Permite observar cultivos desde el aire y detectar zonas que requieren atención agrícola.",
+    "price": "12",
+    "brandID": 2,
+    "typeID": 2,
+    "imageName": "product-6"
+  },
+  {
+    "id": 7,
+    "name": "AgroVuelo Terrascan RTK",
+    "description": "Apoya levantamientos topográficos con posicionamiento preciso y cobertura de terrenos extensos.",
+    "price": "12",
+    "brandID": 5,
+    "typeID": 2,
+    "imageName": "product-7"
+  },
+  {
+    "id": 8,
+    "name": "AgroVuelo Vigía X",
+    "description": "Facilita recorridos de vigilancia y la revisión visual de instalaciones y zonas de acceso.",
+    "price": "8.5",
+    "brandID": 5,
+    "typeID": 2,
+    "imageName": "product-8"
+  },
+  {
+    "id": 9,
+    "name": "AgroVuelo Giro Go",
+    "description": "Dron compacto para practicar maniobras y tomar videos recreativos desde nuevas perspectivas.",
+    "price": "12",
+    "brandID": 5,
+    "typeID": 1,
+    "imageName": "product-9"
+  },
+  {
+    "id": 10,
+    "name": "AeroMILA Vista Aérea 6K",
+    "description": "Captura panorámicas de alta resolución con estabilización para proyectos de fotografía aérea.",
+    "price": "12",
+    "brandID": 2,
+    "typeID": 3,
+    "imageName": "product-10"
+  },
+  {
+    "id": 11,
+    "name": "AeroMILA Lente Nube",
+    "description": "Produce tomas aéreas para recorridos visuales de propiedades y espacios turísticos.",
+    "price": "8.5",
+    "brandID": 2,
+    "typeID": 3,
+    "imageName": "product-11"
+  },
+  {
+    "id": 12,
+    "name": "AgroVuelo Inspección RTK",
+    "description": "Ayuda a revisar infraestructura y obras con imágenes aéreas y referencias de ubicación precisas.",
+    "price": "12",
+    "brandID": 5,
+    "typeID": 2,
+    "imageName": "product-12"
+  }
+]

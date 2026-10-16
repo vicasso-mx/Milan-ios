@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00539CFDFFA4BB50178B9ABB /* MILAN/ViewModels/SessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750EBFA505EC721FC5C4EC89 /* MILAN/ViewModels/SessionViewModel.swift */; };
+		1E58E16B8F70398C412120F3 /* MILANTests/SessionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D41A135A442F8018D5D641 /* MILANTests/SessionTests.swift */; };
+		220F532962A61BF6961FE20A /* MILAN/Models/Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AF80D8F46088E35C92DDCB /* MILAN/Models/Money.swift */; };
+		29C929B37F6DE2977AFF5F88 /* MILAN/ViewModels/CatalogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BE05F19D769C57845C744F /* MILAN/ViewModels/CatalogViewModel.swift */; };
+		340DF0D1A50A33FF45CA75E3 /* MILAN/Views/CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F2C608BBF031643B97256A /* MILAN/Views/CheckoutView.swift */; };
+		3BE4096CC2EE06AA4DD72D2E /* MILANTests/MilanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D1A6990E267ACB715F4E6F /* MILANTests/MilanTests.swift */; };
+		3D2E4664CD3C8B015D423CD1 /* MILAN/Models/Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = A884561203B96C987F45B4A3 /* MILAN/Models/Cart.swift */; };
+		43DBDC8813C8B7DF12A14269 /* MILAN/Models/Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AF902C4069E27E3C1B4C7B /* MILAN/Models/Catalog.swift */; };
+		5698860D752347BCF6565F51 /* MILAN/Views/StoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0930AA65A180FF17261A8D /* MILAN/Views/StoreView.swift */; };
+		65BF625F819110B4B9C1D0E4 /* MILAN/ViewModels/CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0445A72E394EE9E6508C359 /* MILAN/ViewModels/CartViewModel.swift */; };
+		6DE6E5CA9E3A928F06E47868 /* MILANUITests/MilanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8552DD0CB0F3B17A6FCFF491 /* MILANUITests/MilanUITests.swift */; };
+		6F5D072090C3D70C0A93B4FD /* MILAN/Views/CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA9FDA2CC5E5C036868478A /* MILAN/Views/CartView.swift */; };
+		8040B6E38107CB1319E87259 /* MILAN/Views/CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2AD28C624FD9E44B7AA62E /* MILAN/Views/CatalogView.swift */; };
+		9661416FBDAB04403262932C /* MILAN/Models/Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2056DDEE6803E81E03CF87C2 /* MILAN/Models/Order.swift */; };
+		B54194780E4A455EC524F326 /* MILAN/Resources/Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79EF8CC0F40D608345E2F5EB /* MILAN/Resources/Assets.xcassets */; };
+		BD9DA7340B172877C0DE4603 /* MILAN/Resources/catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 1DA41B8AE9F6D0BF34CE22B5 /* MILAN/Resources/catalog.json */; };
+		CDCB56480A9B0D43A4CFCD2F /* MILAN/MilanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A437FDCB7209BC7F700F0FDF /* MILAN/MilanApp.swift */; };
+		E4AF4A351F7B13DC70672DBD /* MILAN/Views/SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABA526226DE5BB5FD160C3E /* MILAN/Views/SignInView.swift */; };
+		E6E5F4505661A9D4F1BEC702 /* MILAN/Views/OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3375FDCBC098BBE71866515 /* MILAN/Views/OrdersView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACF4448817FDB1624870ECF6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E2432471DDA33C138A731DF;
+			remoteInfo = MILAN;
+		};
+		CD78551B57BBD39406E0C24C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E2432471DDA33C138A731DF;
+			remoteInfo = MILAN;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DA41B8AE9F6D0BF34CE22B5 /* MILAN/Resources/catalog.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = MILAN/Resources/catalog.json; sourceTree = SOURCE_ROOT; };
+		2056DDEE6803E81E03CF87C2 /* MILAN/Models/Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILAN/Models/Order.swift; sourceTree = SOURCE_ROOT; };
+		21F2C608BBF031643B97256A /* MILAN/Views/CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILAN/Views/CheckoutView.swift; sourceTree = SOURCE_ROOT; };
+		34AF902C4069E27E3C1B4C7B /* MILAN/Models/Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILAN/Models/Catalog.swift; sourceTree = SOURCE_ROOT; };
+		3ABA526226DE5BB5FD160C3E /* MILAN/Views/SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILAN/Views/SignInView.swift; sourceTree = SOURCE_ROOT; };
+		43D41A135A442F8018D5D641 /* MILANTests/SessionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILANTests/SessionTests.swift; sourceTree = SOURCE_ROOT; };
+		65D40C12C1EA51DD24EC268F /* MILANUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = MILANUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67BE05F19D769C57845C744F /* MILAN/ViewModels/CatalogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILAN/ViewModels/CatalogViewModel.swift; sourceTree = SOURCE_ROOT; };
+		750EBFA505EC721FC5C4EC89 /* MILAN/ViewModels/SessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILAN/ViewModels/SessionViewModel.swift; sourceTree = SOURCE_ROOT; };
+		77D1A6990E267ACB715F4E6F /* MILANTests/MilanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILANTests/MilanTests.swift; sourceTree = SOURCE_ROOT; };
+		78AF80D8F46088E35C92DDCB /* MILAN/Models/Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILAN/Models/Money.swift; sourceTree = SOURCE_ROOT; };
+		79EF8CC0F40D608345E2F5EB /* MILAN/Resources/Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = MILAN/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		8552DD0CB0F3B17A6FCFF491 /* MILANUITests/MilanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILANUITests/MilanUITests.swift; sourceTree = SOURCE_ROOT; };
+		8A7D07DFA66A21433B084581 /* MILAN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = MILAN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C0930AA65A180FF17261A8D /* MILAN/Views/StoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILAN/Views/StoreView.swift; sourceTree = SOURCE_ROOT; };
+		A437FDCB7209BC7F700F0FDF /* MILAN/MilanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILAN/MilanApp.swift; sourceTree = SOURCE_ROOT; };
+		A884561203B96C987F45B4A3 /* MILAN/Models/Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILAN/Models/Cart.swift; sourceTree = SOURCE_ROOT; };
+		B3375FDCBC098BBE71866515 /* MILAN/Views/OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILAN/Views/OrdersView.swift; sourceTree = SOURCE_ROOT; };
+		B8253376136FCE081FD728D8 /* MILANTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = MILANTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA9FDA2CC5E5C036868478A /* MILAN/Views/CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILAN/Views/CartView.swift; sourceTree = SOURCE_ROOT; };
+		D0445A72E394EE9E6508C359 /* MILAN/ViewModels/CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILAN/ViewModels/CartViewModel.swift; sourceTree = SOURCE_ROOT; };
+		FD2AD28C624FD9E44B7AA62E /* MILAN/Views/CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MILAN/Views/CatalogView.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03B2314146EE591ADCAF2E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CBC59D068FDF2A6276D5523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A326C3716C94F748066E59F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D210B14DBEDB9C51532CA4B /* MILAN */ = {
+			isa = PBXGroup;
+			children = (
+				B3375FDCBC098BBE71866515 /* MILAN/Views/OrdersView.swift */,
+				21F2C608BBF031643B97256A /* MILAN/Views/CheckoutView.swift */,
+				3ABA526226DE5BB5FD160C3E /* MILAN/Views/SignInView.swift */,
+				750EBFA505EC721FC5C4EC89 /* MILAN/ViewModels/SessionViewModel.swift */,
+				2056DDEE6803E81E03CF87C2 /* MILAN/Models/Order.swift */,
+				A437FDCB7209BC7F700F0FDF /* MILAN/MilanApp.swift */,
+				A884561203B96C987F45B4A3 /* MILAN/Models/Cart.swift */,
+				34AF902C4069E27E3C1B4C7B /* MILAN/Models/Catalog.swift */,
+				78AF80D8F46088E35C92DDCB /* MILAN/Models/Money.swift */,
+				D0445A72E394EE9E6508C359 /* MILAN/ViewModels/CartViewModel.swift */,
+				67BE05F19D769C57845C744F /* MILAN/ViewModels/CatalogViewModel.swift */,
+				CCA9FDA2CC5E5C036868478A /* MILAN/Views/CartView.swift */,
+				FD2AD28C624FD9E44B7AA62E /* MILAN/Views/CatalogView.swift */,
+				9C0930AA65A180FF17261A8D /* MILAN/Views/StoreView.swift */,
+				79EF8CC0F40D608345E2F5EB /* MILAN/Resources/Assets.xcassets */,
+				1DA41B8AE9F6D0BF34CE22B5 /* MILAN/Resources/catalog.json */,
+			);
+			name = MILAN;
+			sourceTree = "<group>";
+		};
+		325F10A6957A34D66CB8C0E4 = {
+			isa = PBXGroup;
+			children = (
+				1D210B14DBEDB9C51532CA4B /* MILAN */,
+				87FA8D1F8E4CF73B0F28CE06 /* MILANTests */,
+				7F5A30F47A9FD7BB9ACF1C76 /* MILANUITests */,
+				FBDC4F23F93125BBEEAE800C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F5A30F47A9FD7BB9ACF1C76 /* MILANUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8552DD0CB0F3B17A6FCFF491 /* MILANUITests/MilanUITests.swift */,
+			);
+			name = MILANUITests;
+			sourceTree = "<group>";
+		};
+		87FA8D1F8E4CF73B0F28CE06 /* MILANTests */ = {
+			isa = PBXGroup;
+			children = (
+				43D41A135A442F8018D5D641 /* MILANTests/SessionTests.swift */,
+				77D1A6990E267ACB715F4E6F /* MILANTests/MilanTests.swift */,
+			);
+			name = MILANTests;
+			sourceTree = "<group>";
+		};
+		FBDC4F23F93125BBEEAE800C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A7D07DFA66A21433B084581 /* MILAN.app */,
+				B8253376136FCE081FD728D8 /* MILANTests.xctest */,
+				65D40C12C1EA51DD24EC268F /* MILANUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E2432471DDA33C138A731DF /* MILAN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6005B3CA20CC63DABD3711 /* Build configuration list for PBXNativeTarget "MILAN" */;
+			buildPhases = (
+				01F5C7913818366B1AF142BC /* Sources */,
+				2A326C3716C94F748066E59F /* Frameworks */,
+				2482231F2659A0FCD772ED48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MILAN;
+			productName = MILAN;
+			productReference = 8A7D07DFA66A21433B084581 /* MILAN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57E6A7A8F73CD2450E124E11 /* MILANUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E01E2834125266821074C40 /* Build configuration list for PBXNativeTarget "MILANUITests" */;
+			buildPhases = (
+				8BF39835CD065606F070F412 /* Sources */,
+				1CBC59D068FDF2A6276D5523 /* Frameworks */,
+				AF881C903BBD370655E6B094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9096F761B15FC242406A1B7E /* PBXTargetDependency */,
+			);
+			name = MILANUITests;
+			productName = MILANUITests;
+			productReference = 65D40C12C1EA51DD24EC268F /* MILANUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E22277473AFAD2B43B995DED /* MILANTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 172C634A3F9709DCE54C3C44 /* Build configuration list for PBXNativeTarget "MILANTests" */;
+			buildPhases = (
+				4D12D370214FD523FB69DAB6 /* Sources */,
+				03B2314146EE591ADCAF2E9F /* Frameworks */,
+				CDD8F3639A386B547204438D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD6958B3393CCDC54D235B9 /* PBXTargetDependency */,
+			);
+			name = MILANTests;
+			productName = MILANTests;
+			productReference = B8253376136FCE081FD728D8 /* MILANTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98F54143AB4E86B28C3AFEE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2710;
+			};
+			buildConfigurationList = 862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "MILAN" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = es_MX;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				es_MX,
+				Base,
+			);
+			mainGroup = 325F10A6957A34D66CB8C0E4;
+			productRefGroup = FBDC4F23F93125BBEEAE800C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E2432471DDA33C138A731DF /* MILAN */,
+				E22277473AFAD2B43B995DED /* MILANTests */,
+				57E6A7A8F73CD2450E124E11 /* MILANUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2482231F2659A0FCD772ED48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54194780E4A455EC524F326 /* MILAN/Resources/Assets.xcassets in Resources */,
+				BD9DA7340B172877C0DE4603 /* MILAN/Resources/catalog.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF881C903BBD370655E6B094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDD8F3639A386B547204438D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01F5C7913818366B1AF142BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6E5F4505661A9D4F1BEC702 /* MILAN/Views/OrdersView.swift in Sources */,
+				340DF0D1A50A33FF45CA75E3 /* MILAN/Views/CheckoutView.swift in Sources */,
+				E4AF4A351F7B13DC70672DBD /* MILAN/Views/SignInView.swift in Sources */,
+				00539CFDFFA4BB50178B9ABB /* MILAN/ViewModels/SessionViewModel.swift in Sources */,
+				9661416FBDAB04403262932C /* MILAN/Models/Order.swift in Sources */,
+				CDCB56480A9B0D43A4CFCD2F /* MILAN/MilanApp.swift in Sources */,
+				3D2E4664CD3C8B015D423CD1 /* MILAN/Models/Cart.swift in Sources */,
+				43DBDC8813C8B7DF12A14269 /* MILAN/Models/Catalog.swift in Sources */,
+				220F532962A61BF6961FE20A /* MILAN/Models/Money.swift in Sources */,
+				65BF625F819110B4B9C1D0E4 /* MILAN/ViewModels/CartViewModel.swift in Sources */,
+				29C929B37F6DE2977AFF5F88 /* MILAN/ViewModels/CatalogViewModel.swift in Sources */,
+				6F5D072090C3D70C0A93B4FD /* MILAN/Views/CartView.swift in Sources */,
+				8040B6E38107CB1319E87259 /* MILAN/Views/CatalogView.swift in Sources */,
+				5698860D752347BCF6565F51 /* MILAN/Views/StoreView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D12D370214FD523FB69DAB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E58E16B8F70398C412120F3 /* MILANTests/SessionTests.swift in Sources */,
+				3BE4096CC2EE06AA4DD72D2E /* MILANTests/MilanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF39835CD065606F070F412 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE6E5CA9E3A928F06E47868 /* MILANUITests/MilanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AD6958B3393CCDC54D235B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E2432471DDA33C138A731DF /* MILAN */;
+			targetProxy = ACF4448817FDB1624870ECF6 /* PBXContainerItemProxy */;
+		};
+		9096F761B15FC242406A1B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E2432471DDA33C138A731DF /* MILAN */;
+			targetProxy = CD78551B57BBD39406E0C24C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		48ECBCD9BFE1943B28296F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.doceolab.milantests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MILAN.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MILAN";
+			};
+			name = Debug;
+		};
+		67E5474EFEA8CE6E46514D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33Y998KU6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es_MX;
+				INFOPLIST_KEY_CFBundleDisplayName = MILAN;
+				INFOPLIST_KEY_CFBundleLocalizations = es_MX;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.doceolab.milan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		78A9BC868381F7F6EE57F56C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.doceolab.milanuitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MILAN;
+			};
+			name = Release;
+		};
+		89E1FD6268CC0F221A2BE178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A4FC9844520A186301EBB916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 33Y998KU6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDevelopmentRegion = es_MX;
+				INFOPLIST_KEY_CFBundleDisplayName = MILAN;
+				INFOPLIST_KEY_CFBundleLocalizations = es_MX;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.doceolab.milan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA3CDEFF0C15803346CAB48D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.doceolab.milanuitests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MILAN;
+			};
+			name = Debug;
+		};
+		E6DE6C99132752C914FEF632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F0D29920DCBC238FB881427E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.doceolab.milantests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MILAN.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MILAN";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		172C634A3F9709DCE54C3C44 /* Build configuration list for PBXNativeTarget "MILANTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48ECBCD9BFE1943B28296F9C /* Debug */,
+				F0D29920DCBC238FB881427E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6005B3CA20CC63DABD3711 /* Build configuration list for PBXNativeTarget "MILAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FC9844520A186301EBB916 /* Debug */,
+				67E5474EFEA8CE6E46514D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862894B703A6DEDF96A9DD6C /* Build configuration list for PBXProject "MILAN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89E1FD6268CC0F221A2BE178 /* Debug */,
+				E6DE6C99132752C914FEF632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E01E2834125266821074C40 /* Build configuration list for PBXNativeTarget "MILANUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3CDEFF0C15803346CAB48D /* Debug */,
+				78A9BC868381F7F6EE57F56C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98F54143AB4E86B28C3AFEE0 /* Project object */;
+}
